@@ -2,7 +2,7 @@
 //Petición al archivo json
 fetch("data/noticias.json")
 .then(res => res.json()) //Coonvierte la respuesta del servidor en un objeto javascript
-.then(data =>( //Crea el array de objetos data (cada objeto = una noticia)
+.then(data =>{ //Crea el array de objetos data (cada objeto = una noticia)
     const contenedor = document.getElementById("noticias"); //Selecciona el contenedor html donde se insertarán las moticias
     //Recorrido del array data
     data.forEach(n => { //"n" representa cada objeto "noticia" dentro del arreglo
@@ -17,4 +17,4 @@ fetch("data/noticias.json")
         `;
         contenedor.appendChild(div); // Inserta el div dentro del contenedor de noticias 
     });    
-));
+});
