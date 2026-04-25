@@ -1,0 +1,48 @@
+[
+    {
+        "titulo":"José Javier Pastor, especialista en ciberseguridad: Infectio es una herramienta online para analizar archivos sospechosos y malware de forma segura",
+        "fecha":"25/04/2026",
+        "autor":"marca.com",
+        "contenido":"a ciberseguridad se ha convertido en un campo esencial de la era actual. Y es que, a día de hoy, todo va digitalizado y es imprescindible tener herramientas que detecten cuando un archivo no es beneficioso. Pues bien, José Javier Pastor, especialista en ciberseguridad, ha compartido un nuevo post en su perfil de Instagram donde habla de Infectio, la cual sería muy útil en estos casos.
+
+Con esta herramienta vas a poder analizar malware directamente desde tu navegador sin instalar absolutamente nada. Se llama Infectio y es una herramienta de análisis estático de malware construida con WebAssembly. Y jacabis, ¿qué significa esto? Pues que todo el análisis se ejecuta en local, en tu navegador, comienza diciendo.
+Y lo mejor es que soporta un montón de formatos de análisis. Y realmente, ¿qué es lo que analiza? Pues mirad. Extrae strings del archivo, calcula hashes, visualiza la entropía, inspecciona los imports, detecta macros y también encuentra ejecutables embebidos, añadía el joven experto, asegurando que es una herramienta eficaz y con mucho potencial.
+O sea, todo lo que necesitas hacer en un análisis estático completo sin necesidad de montar un sandbox en una máquina virtual. Y lo mejor, que ahora está muy de moda, pero es una locura, tiene una integración opcional con un LLM local para que la propia IA te ayude a interpretar los resultados”, sentenciaba Pastor, dejando claro que la calidad es espectacular.
+
+Esta no es la primera vez que el especialista recomienda algo del estilo, pues hace unas semanas habló de Wikman, un agente autónomo es capaz de revisar tu seguridad mientras duermes. Vive dentro de cualquier app de mensajería y lo mejor es que le escribes como si fuera un colega y pues te hace cualquier cosa que necesites, comentaba."
+    },
+    {
+      "titulo":"Bizum: a partir de mayo se podrá pagar con este método en tiendas físicas",
+      "fecha":"23/04/2026",
+      "autor":"marca.com",
+      "contenido":"Bizum sigue extendiéndose, convirtiéndose poco a poco en la forma de pago preferida en España. El siguiente paso es el pago a través de ello en tiendas físicas, algo disponible el próximo 18 de mayo. Eso sí, no todos los bancos lo permitirán.
+
+El portal La Información Económica, contacto con fuentes cercanas a Bizum para saber más sobre esta actualización: Las entidades bancarias irán incorporando progresivamente el servicio y estimamos que, a finales de este año, la gran mayoría de los usuarios de Bizum podrán pagar presencialmente con nuestra solución, bien a través de la aplicación de su banco, bien a través de la nueva cartera digital Bizum Pay, señalan.
+
+Siendo CaixaBank, Banco Sabadell y Bankinter, las entidades bancarias que permitirán su uso desde el principio, aunque el Banco Santander también podría estar incluido. De esta forma, el negocio de tarjetas, principalmente Mastercard y Visa, podría verse afectado en nuestro país y Europa.
+Bizum llega también a Europa: así funcionará
+Bizum, que nació en 2016, cuenta ya con 35 bancos y más de 35 millones de usuario, está previsto que llegue también a los pagos europeos, lo que ampliaría aún más su red. Jordi Nebot, experto en pagos digitales, CEO y fundador de PaynoPain, explicó los grandes avances que supone esto: Para el usuario, el principal cambio es la desaparición de las fronteras digitales: enviar dinero a un contacto en otro país europeo será tan rápido y sencillo como hacerlo a nivel nacional, sin transferencias lentas ni aplicaciones externas.
+
+Bizum deja así de ser una solución local para convertirse en un ‘pasaporte financiero’ interoperable con sistemas como MB Way en Portugal, permitiendo pagos instantáneos entre países directamente desde la agenda de contactos. El objetivo de esta alianza es que, de cara a 2027, los pagos transfronterizos en Europa sean tan naturales y cotidianos como los actuales dentro de cada país, destacó."  
+    },
+    {
+      "titulo":"Si usas Signal en iPhone, deberías cambiar este ajuste de privacidad cuanto antes",
+      "fecha":"25/04/2026",
+      "autor":"Alfonso De Frutos Sastre",
+      "contenido":"Apple tiene fama de ser una de las marcas que mejor cuida la privacidad de los usuarios. Su sistema protege muy bien, pero hay veces en las que aparecen errores. Y es justo lo que ha sucedido.
+
+De esta manera, ha surgido una nueva polémica, ya que recientemente se ha descubierto que iOS almacenaba en su base de datos de notificaciones fragmentos de mensajes recibidos, incluso cuando estaban configurados para desaparecer. Y ha afectado especialmente a usuarios de Signal. Un fallo de privacidad muy grave y que, por suerte, ha sido solventado. Tal y como ya hemos contado, Apple ha corregido este problema en una actualización reciente del sistema, por lo que mantener tu iPhone al día es ahora mismo la primera medida que deberías tomar.
+
+Aun así, el propio equipo de Signal ha dejado claro que hay formas de reforzar la privacidad más allá del parche, especialmente si quieres asegurarte de que ningún contenido sensible quede expuesto en las notificaciones.
+Cómo cambiar el ajuste de privacidad en Signal paso a paso
+Y ojo, no hablamos de una advertencia cualquiera, sino que ha sido la propia presidenta de Signal, Meredith Whittaker, la que ha sido bastante clara al respecto: las notificaciones no deberían almacenar contenido de mensajes que se supone que deben desaparecer.
+
+Mientras tanto, recomienda limitar al máximo la información que aparece en esas notificaciones, algo que puedes hacer en cuestión de segundos y que marca una diferencia importante. Si quieres evitar que el contenido de tus mensajes de Signal aparezca en las notificaciones del iPhone, solo tienes que seguir estos pasos dentro de la app:
+
+También puedes elegir “Solo nombre” si prefieres ver quién te escribe sin mostrar el mensaje. En cualquier caso, evitarás que el texto completo quede registrado en el sistema.
+
+Queremos hacer hincapie en que Apple ya ha solucionado este problema mediante la actualización correspondiente de iOS 26.4.2 y que solventa este problema.
+
+Por lo que, la mejor protección vuelve a ser instalar cualquier actualización de seguridad que recibas en tu equipo. Pero no está de más darle ese plus de protección a Signal, ya que ofrece esta opción en iOS, para tener la tranquilidad absoluta de que nadie va a poder ver tus conversaciones a través de este servicio de mensajería instantánea."  
+    }
+]
