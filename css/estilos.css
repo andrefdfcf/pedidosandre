@@ -63,6 +63,7 @@ section{ /*Espaciado de secciones*/
     background: #dee0e4;
     padding: 20px;
     border-radius: 10px; /*Para los bordes redondeados*/
+    margin: 15px 0;
     transition: 0.3s;
 }
 .card:hover{
