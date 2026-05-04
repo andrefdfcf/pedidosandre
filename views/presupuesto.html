@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--Inicio del html donde se especifica que el documento está en idioma español-->
+<html lang = "es">
+    <head>
+       <!--Configuración de caracteres especiales como tildes, ñ, etc -->
+        <meta charset="utf-8">
+       <!--Título de la página-->
+        <title>
+        PedidosAndre
+       </title>
+       <!--Estilos de la página-->
+       <link rel="stylesheet" href="../css/estilos.css">
+       <!--Permite diseño responsive en móvil.-->
+       <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <!--Fuente de letras externas de google forms-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--Barra de navegación-->
+        <nav>
+            <!--Nombre de la página-->
+            <h2>
+                PedidosAndre
+            </h2>
+            <!--Menú de navegación-->
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!--Formulario-->
+        <section class="contenedor">
+            <h2>
+                Formulario de Solicitud
+            </h2>
+            <form id="formulario">
+                <!--Datos de contacto-->
+                <fieldset>
+                    <legend>
+                        Datos
+                    </legend>
+                    <label>
+                        Nombre:
+                    </label>
+                    <input type="text" id="nombre" placeholder="Nombre" maxlength="15">
+                    <label>
+                        Apellidos:
+                    </label>
+                    <input type="text" id="apellidos" placeholder="Apellido" maxlength="40">
+                    <label>
+                        Teléfono de Contacto:
+                    </label>
+                    <input type="text" id="telefono" placeholder="Teléfono" maxlength="9">
+                    <label>
+                        Correo electrónico 
+                    </label>
+                    <input type="text" id="correo" placeholder="Correo electrónico"> 
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Presupuesto
+                    </legend>
+                    <label>
+                        Producto:
+                    </label>
+                    <select id="producto">
+                        <option value="0">Selecciona un Producto</option>
+                        <option value="40">Teclado</option>
+                        <option value="20">Ratón</option>
+                        <option value="100">Micrófono</option>
+                        <option value="150">Monitor</option>
+                        <option value="700">Tarjeta gráfica</option>
+                        <option value="300">Procesador</option>
+                    </select>
+                <label>
+                    Plazo de entrega(Días): 
+                </label>
+                <input type="number" id="plazo" placeholder="plazo" min="1" max="30">
+                <label>
+                    Elija los extras para el producto:
+                </label>
+                <label class="normal">
+                    <input type="checkbox" class="extra" value="50"> Instalación y configuración
+                </label>
+                <label class="normal">
+                    <input type="checkbox" class="extra" value="10"> Kit de limpieza
+                </label>
+                <label class="normal">
+                    <input type="checkbox" class="extra" value="80"> Mantenimiento
+                </label>
+                <label>
+                    Presupuesto estimado:
+                </label>
+                <input type="text" id="total" readonly>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Aceptación de condiciones y envío de presupuesto
+                    </legend>
+                    <label class="normal">
+                        <input type="checkbox" id="condiciones"> He leído y acepto la política de privacidad
+                    </label>
+                    <button type="submit">Enviar</button>
+                    <button type="reset" id="cancelar">Cancelar</button>
+                </fieldset>
+            </form>
+        </section>
+        <!--Pie de página-->
+        <footer>
+            <!--Links de las redes sociales-->
+            <div class="redes">
+                <a href="https://www.facebook.com/andre.delaguilaocampo" target ="_blank"><img src="../img/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target ="_blank"><img src="../img/instagram.png" alt="instagram"></a>
+                <a href="https://github.com/" target ="_blank"><img src="../img/github.png" alt="github"></a>
+                <a href="https://www.tiktok.com/es-419/" target ="_blank"><img src="../img/tiktok.png" alt="tiktok"></a>
+            </div>
+            <!--Dirección de la empresa-->
+            <p>
+                Dirección: Santsaerreka 13 bajo 0 izq, Araia/Álava
+            </p>
+            <!--Aviso legal-->
+            <p>
+                ©2026 PedidosAndre - Todos los derechos reservados
+            </p>
+        </footer>
+        <!--Enlace al archivo javascript. Para que funcione el json, la página se debe correr sobre un servidor-->
+        <script src="../js/presupuesto.js"></script>
+    </body>
+</html>
