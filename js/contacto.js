@@ -21,7 +21,7 @@ document.getElementById("btnRuta").addEventListener("click", () => {
       pos.coords.longitude
     ];
     // Marcador cliente
-    L.marker(cliente).addTo(map)
+    L.marker(cliente).addTo(mapa)
       .bindPopup("Tu ubicación")
       .openPopup();
     //Petición a ORS
