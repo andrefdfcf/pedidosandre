@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Inicio del html donde se especifica que el documento está en idioma español-->
+<html lang = "es">
+    <head>
+       <!--Configuración de caracteres especiales como tildes, ñ, etc -->
+        <meta charset="utf-8">
+       <!--Título de la página-->
+        <title>
+        PedidosAndre
+       </title>
+       <!--Estilos de la página-->
+       <link rel="stylesheet" href="../css/estilos.css">
+       <!--Permite diseño responsive en móvil.-->
+       <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <!--Fuente de letras externas de google forms-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+       <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    </head>
+    <body>
+        <!--Barra de navegación-->
+        <nav>
+            <!--Nombre de la página-->
+            <h2>
+                PedidosAndre
+            </h2>
+            <!--Menú de navegación-->
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+        <!--Contacto-->
+        <section class="contenedor">
+            <h2>
+                Contáctanos
+            </h2>
+            <p>
+                <strong>
+                    Dirección: 
+                </strong>Santsaerreka 13 bajo 0 izq, Araia
+            </p>
+            <p>
+                <strong>
+                    Correo electrónico:
+                </strong>andre.delaguila.o@gmail.com
+            </p>
+            <p>
+                <strong>
+                    Teléfono:
+                </strong>689 654 523
+            </p>
+        <!--Mapa-->
+        <div id="mapa">
+        </div>
+        <button id="btnRuta">
+            Calcular ruta hacia mi ubicación
+        </button>
+        </section>
+        <!--Pie de página-->
+        <footer>
+            <!--Links de las redes sociales-->
+            <div class="redes">
+                <a href="https://www.facebook.com/andre.delaguilaocampo" target ="_blank"><img src="../img/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target ="_blank"><img src="../img/instagram.png" alt="instagram"></a>
+                <a href="https://github.com/" target ="_blank"><img src="../img/github.png" alt="github"></a>
+                <a href="https://www.tiktok.com/es-419/" target ="_blank"><img src="../img/tiktok.png" alt="tiktok"></a>
+            </div>
+            <!--Dirección de la empresa-->
+            <p>
+                Dirección: Santsaerreka 13 bajo 0 izq, Araia/Álava
+            </p>
+            <!--Aviso legal-->
+            <p>
+                ©2026 PedidosAndre - Todos los derechos reservados
+            </p>
+        </footer>
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="../js/contacto.js"></script>
+    </body>
+</html>
